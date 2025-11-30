@@ -100,7 +100,7 @@ export const ContactForm = ({ onClose }: ContactFormProps) => {
       <div className="space-y-2">
         <label className="text-sm font-medium text-foreground flex items-center space-x-2">
           <Mail className="h-4 w-4" />
-          <span>Email Address *</span>
+          <span>Email Address (Optional)</span>
         </label>
         <Input
           name="email"
@@ -108,7 +108,6 @@ export const ContactForm = ({ onClose }: ContactFormProps) => {
           value={formData.email}
           onChange={handleChange}
           placeholder="your.email@example.com"
-          required
           className="border-luxury-brown/20 focus:border-luxury-gold"
         />
       </div>
