@@ -73,13 +73,13 @@ export const ContactSection = () => {
             </div>
 
             <div className="p-6 bg-luxury-gold/10 rounded-lg">
-              <h4 className="font-semibold text-foreground mb-3">Why Choose DLF Privana North?</h4>
+              <h4 className="font-semibold text-foreground mb-3">Why Choose M3M GIC Gurugram?</h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>✓ Premium 4 BHK apartments with 88% green area</li>
-                <li>✓ Low-density high-rise development</li>
-                <li>✓ World-class amenities and clubhouse</li>
-                <li>✓ Prime location in Sector 77, Gurgaon</li>
-                <li>✓ From a trusted developer with 70+ years of legacy</li>
+                <li>✓ 2, 3 & 4 BHK luxury apartments with 75% open space</li>
+                <li>✓ Modern architecture with smart layouts</li>
+                <li>✓ World-class amenities and recreational facilities</li>
+                <li>✓ Prime location in Sector 9, Manesar with excellent connectivity</li>
+                <li>✓ Flexible payment plans: 30:40:30 & 25 X 4</li>
               </ul>
             </div>
           </div>

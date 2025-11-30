@@ -23,29 +23,24 @@ export const FloorPlans = ({ onEnquireClick }: FloorPlansProps) => {
         </div>
 
         {/* Unit Details */}
-        <div className="max-w-3xl mx-auto mb-16">
-          <Card className="p-8 bg-luxury-beige">
-            <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div>
-                <div className="text-3xl font-bold text-luxury-brown mb-2">
-                  4 BHK + SQ
-                </div>
-                <div className="text-sm text-muted-foreground">Configuration</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-luxury-brown mb-2">
-                  3977 Sq. Ft.*
-                </div>
-                <div className="text-sm text-muted-foreground">Area (Onwards)</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-luxury-gold mb-2">
-                  ₹8.50 Cr*
-                </div>
-                <div className="text-sm text-muted-foreground">Price (Onwards)</div>
-              </div>
-            </div>
-          </Card>
+        <div className="max-w-5xl mx-auto mb-16">
+          <div className="grid md:grid-cols-3 gap-6">
+            <Card className="p-6 bg-luxury-beige text-center">
+              <div className="text-2xl font-bold text-luxury-brown mb-2">2 BHK</div>
+              <div className="text-lg text-luxury-gold font-semibold mb-2">₹ On Request</div>
+              <div className="text-sm text-muted-foreground">Size: 1200 Sq.ft.</div>
+            </Card>
+            <Card className="p-6 bg-luxury-gold/10 text-center border-2 border-luxury-gold">
+              <div className="text-2xl font-bold text-luxury-brown mb-2">3 BHK</div>
+              <div className="text-lg text-luxury-gold font-semibold mb-2">₹ 2.15 Cr*</div>
+              <div className="text-sm text-muted-foreground">Size: 1700-1800 sq.ft.</div>
+            </Card>
+            <Card className="p-6 bg-luxury-beige text-center">
+              <div className="text-2xl font-bold text-luxury-brown mb-2">4 BHK</div>
+              <div className="text-lg text-luxury-gold font-semibold mb-2">₹ On Request</div>
+              <div className="text-sm text-muted-foreground">Size: 2400 sq.ft.</div>
+            </Card>
+          </div>
         </div>
 
         {/* Plans Grid */}
@@ -100,10 +95,10 @@ export const FloorPlans = ({ onEnquireClick }: FloorPlansProps) => {
             </div>
             <div className="p-6 bg-luxury-beige">
               <h3 className="text-xl font-semibold text-foreground mb-2">
-                4 BHK Floor Plan
+                Apartment Floor Plans
               </h3>
               <p className="text-sm text-muted-foreground">
-                Detailed apartment layout with dimensions
+                Detailed layouts for 2, 3 & 4 BHK apartments
               </p>
             </div>
           </Card>

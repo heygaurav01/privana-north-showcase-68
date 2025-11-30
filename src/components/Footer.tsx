@@ -15,14 +15,14 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="text-2xl font-serif font-bold text-luxury-gold">DLF</div>
-              <div className="text-sm text-white/90 pt-1">Privana North</div>
+              <div className="text-2xl font-serif font-bold text-luxury-gold">M3M</div>
+              <div className="text-sm text-white/90 pt-1">GIC Gurugram</div>
             </div>
             <p className="text-sm text-white/70 mb-4">
-              Premium 4 BHK Apartments & Penthouses in the heart of Gurgaon
+              2, 3 & 4 BHK Luxury Apartments in Sector 9, Manesar, Gurgaon
             </p>
             <div className="text-xs text-white/50">
-              RERA ID: GGM/954/686/2025/57
+              Premium Offerings for Elite Living
             </div>
           </div>
 
@@ -89,7 +89,7 @@ export const Footer = () => {
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-luxury-gold mt-0.5 flex-shrink-0" />
-                <span className="text-white/70">Sector 77, Gurgaon, Haryana</span>
+                <span className="text-white/70">Sector 9, Manesar, Gurugram, Haryana</span>
               </li>
             </ul>
           </div>
@@ -107,7 +107,7 @@ export const Footer = () => {
 
         <div className="border-t border-white/10 pt-8">
           <div className="text-center text-sm text-white/50">
-            <p>© {new Date().getFullYear()} DLF Privana North. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} M3M GIC Gurugram. All rights reserved.</p>
             <p className="mt-2 text-xs">
               *T&C Apply. All specifications and images are indicative and subject to change.
             </p>
