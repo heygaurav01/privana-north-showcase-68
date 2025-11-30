@@ -64,7 +64,7 @@ export const ContactSection = () => {
                     <div>
                       <h4 className="font-semibold text-foreground mb-2">Location</h4>
                       <p className="text-muted-foreground">
-                        Sector 77, Gurgaon, Haryana
+                        M3M, Sector 1B, Manesar, Gurugram, Haryana 122052
                       </p>
                     </div>
                   </div>

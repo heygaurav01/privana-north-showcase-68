@@ -25,16 +25,34 @@ export const ContactForm = ({ onClose }: ContactFormProps) => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    setTimeout(() => {
-      toast({
-        title: "Thank you for your interest!",
-        description: "Our team will contact you shortly.",
+    try {
+      const response = await fetch("https://api.elaris.ltd/api.request", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
+
+      if (response.ok) {
+        toast({
+          title: "Thank you for your interest!",
+          description: "Our team will contact you shortly.",
+        });
+        if (onClose) onClose();
+        navigate("/Thank-you.html");
+      } else {
+        throw new Error("Submission failed");
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Something went wrong. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
       setIsSubmitting(false);
-      if (onClose) onClose();
-      navigate("/thank-you");
-    }, 1000);
+    }
   };
 
   const handleChange = (

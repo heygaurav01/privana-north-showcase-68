@@ -37,15 +37,10 @@ export const AboutDeveloper = () => {
 
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-lg text-white/90 leading-relaxed mb-6">
-            M3M Group is a renowned real estate developer committed to delivering world-class residential and commercial 
-            properties. With a legacy of excellence and innovation, M3M has established itself as a trusted name in the 
-            Indian real estate sector, creating landmark projects that redefine luxury living.
+            M3M India is a leading real estate developer known for creating premium residential, commercial, and mixed-use projects across the Delhi–NCR region. Established in 2010, the company operates with the philosophy of “Magnificence in the Trinity of Men, Materials and Money,” reflecting its focus on strong leadership, quality construction, and sound financial management.
           </p>
           <p className="text-lg text-white/90 leading-relaxed">
-            The company's portfolio includes premium residential apartments, commercial spaces, and integrated townships 
-            that combine modern architecture with sustainable development. M3M's projects are characterized by their 
-            prime locations, exceptional design quality, and world-class amenities, making them preferred choices for 
-            discerning homebuyers and investors.
+            With a substantial land bank and a track record of delivering large-scale luxury developments, M3M has become a prominent name in Gurugram’s skyline. The group is recognized for contemporary design, world-class amenities, and strategic locations that ensure excellent connectivity. Its portfolio spans high-rise residences, retail spaces, office complexes, and integrated townships, all designed to offer modern lifestyles and long-term value.
           </p>
         </div>
 

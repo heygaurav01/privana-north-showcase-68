@@ -3,14 +3,14 @@ import { Card } from "@/components/ui/card";
 
 export const Location = () => {
   const nearbyPlaces = [
-    { name: "NH-8 Highway", distance: "Close Proximity" },
-    { name: "Dwarka Expressway", distance: "Quick Access" },
+    { name: "KMP Expressway", distance: "2 Min" },
+    { name: "NH-48 via Dwarka Expressway", distance: "20 Min" },
+    { name: "Ambience Mall", distance: "10 Min" },
+    { name: "IGI Airport Delhi", distance: "45 Min" },
+    { name: "G.D. Goenka World School", distance: "10 Min" },
     { name: "Manesar Metro Station", distance: "Nearby" },
-    { name: "Top Schools & Colleges", distance: "Short Drive" },
     { name: "Hospitals & Healthcare", distance: "Minutes Away" },
-    { name: "Shopping Malls", distance: "Nearby" },
     { name: "Corporate Offices", distance: "Close By" },
-    { name: "Entertainment Hubs", distance: "Easy Access" },
   ];
 
   return (
@@ -68,11 +68,11 @@ export const Location = () => {
                 Perfect Connectivity
               </h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Direct access to NH-8 and Dwarka Expressway</li>
-                <li>• Close to rapidly developing Manesar industrial hub</li>
-                <li>• Excellent metro and public transport connectivity</li>
-                <li>• Premium schools, hospitals, and malls nearby</li>
-                <li>• Strategic location between Delhi and Gurgaon</li>
+                <li>• KMP Expressway - 2 Min</li>
+                <li>• NH-48 via the Dwarka Expressway - 20 Min</li>
+                <li>• Ambience Mall - 10 Min</li>
+                <li>• IGI Airport Delhi - 45 Min</li>
+                <li>• G.D. Goenka World School - 10 Min</li>
               </ul>
             </div>
           </div>

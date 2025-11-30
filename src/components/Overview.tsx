@@ -37,17 +37,17 @@ export const Overview = () => {
 
   const highlights = [
     "Luxury high-rise living with smart layouts",
-    "Sprawling Acres of Lush Greenery with 75% open space",
+    "Sprawling Acres of Lush Greenery",
+    "75% open space",
     "Modern Amenity & Recreational Spaces",
     "Floral gardens with air-purifying Trees Species",
     "Close to metro, colleges & hospitals",
     "Quick access to NH-8 & Dwarka Expressway",
     "Striking glass facade with skyline views",
-    "Natural light & ventilation in every apartment",
+    "Natural light & ventilation",
     "Near schools, malls & workplaces",
     "24×7 gated security",
     "High-growth investment zone",
-    "Payment Plans: 30:40:30 & 25 X 4",
   ];
 
   return (
@@ -100,10 +100,10 @@ export const Overview = () => {
         <div className="mt-12 max-w-4xl mx-auto">
           <div className="bg-white p-8 rounded-lg shadow-card">
             <p className="text-foreground leading-relaxed mb-4">
-              M3M GIC at Sector 9, Manesar, Gurgaon offers a lifestyle where modern architecture blends seamlessly with lush green landscapes and premium amenities, setting a new benchmark for luxury living. Designed for those who seek comfort and sophistication, these residences reflect thoughtful planning in every detail.
+              M3M GIC at Sector 9, Manesar, Gurgaon offers a lifestyle where modern architecture blends seamlessly with lush green landscapes and premium amenities, setting a new benchmark for luxury living. Designed for those who seek comfort and sophistication, these residences reflect thoughtful planning in every detail. Situated in the rapidly developing hub of M3M GIC Gurugram, the project enjoys excellent connectivity.
             </p>
             <p className="text-foreground leading-relaxed">
-              GIC – Gurgaon International City is envisioned as a future-ready urban ecosystem where business, leisure, and sustainability come together. This integrated township redefines modern living, offering a balanced environment powered by innovation and surrounded by nature.
+              GIC – Gurgaon International City is envisioned as a future-ready urban ecosystem where business, leisure, and sustainability come together. This integrated township redefines modern living, offering a balanced environment powered by innovation and surrounded by nature. Strategically located along Gurgaon’s major growth corridors, GIC provides quick access to key commercial zones yet remains embraced by serene hills, parks, lakes, and forests.
             </p>
           </div>
         </div>
