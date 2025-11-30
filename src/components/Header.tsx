@@ -36,9 +36,9 @@ export const Header = ({ onEnquireClick }: HeaderProps) => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
             <div className="text-2xl font-serif font-bold text-luxury-gold">
-              DLF
+              M3M
             </div>
-            <div className="text-sm text-white/90 pt-1">Privana North</div>
+            <div className="text-sm text-white/90 pt-1">GIC Gurugram</div>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">

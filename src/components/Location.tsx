@@ -3,14 +3,14 @@ import { Card } from "@/components/ui/card";
 
 export const Location = () => {
   const nearbyPlaces = [
-    { name: "DLF Corporate Greens", distance: "4.3 Km" },
-    { name: "Aarvy Hospital", distance: "10.7 Km" },
-    { name: "Corner Walk", distance: "2.9 Km" },
-    { name: "Suraj School", distance: "3.6 Km" },
-    { name: "Golf Retreat", distance: "3.7 Km" },
-    { name: "Hyatt Regency", distance: "2.8 Km" },
-    { name: "Karma Lake", distance: "5.6 Km" },
-    { name: "SPR Road", distance: "2.5 Km" },
+    { name: "NH-8 Highway", distance: "Close Proximity" },
+    { name: "Dwarka Expressway", distance: "Quick Access" },
+    { name: "Manesar Metro Station", distance: "Nearby" },
+    { name: "Top Schools & Colleges", distance: "Short Drive" },
+    { name: "Hospitals & Healthcare", distance: "Minutes Away" },
+    { name: "Shopping Malls", distance: "Nearby" },
+    { name: "Corporate Offices", distance: "Close By" },
+    { name: "Entertainment Hubs", distance: "Easy Access" },
   ];
 
   return (
@@ -22,7 +22,7 @@ export const Location = () => {
           </h2>
           <div className="w-24 h-1 bg-luxury-gold mx-auto mb-4" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Strategically located in Sector 77, Gurgaon with excellent connectivity
+            Strategically located in Sector 9, Manesar with excellent connectivity to major hubs
           </p>
         </div>
 
@@ -68,10 +68,11 @@ export const Location = () => {
                 Perfect Connectivity
               </h4>
               <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>• Easy access to major highways and expressways</li>
-                <li>• Close proximity to corporate hubs</li>
-                <li>• Well-connected to schools and hospitals</li>
-                <li>• Shopping and entertainment nearby</li>
+                <li>• Direct access to NH-8 and Dwarka Expressway</li>
+                <li>• Close to rapidly developing Manesar industrial hub</li>
+                <li>• Excellent metro and public transport connectivity</li>
+                <li>• Premium schools, hospitals, and malls nearby</li>
+                <li>• Strategic location between Delhi and Gurgaon</li>
               </ul>
             </div>
           </div>

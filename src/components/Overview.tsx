@@ -6,42 +6,48 @@ export const Overview = () => {
     {
       icon: <MapPin className="h-8 w-8" />,
       label: "Location",
-      value: "Sector 77, Gurgaon",
+      value: "Sector 9, Manesar",
     },
     {
       icon: <Layers className="h-8 w-8" />,
-      label: "Land Area",
-      value: "17.7 Acres*",
+      label: "Land Parcel",
+      value: "30 Acres",
     },
     {
       icon: <Home className="h-8 w-8" />,
-      label: "No. of Units",
-      value: "1162*",
+      label: "Configuration",
+      value: "2, 3 & 4 BHK",
     },
     {
       icon: <Building2 className="h-8 w-8" />,
       label: "No. of Towers",
-      value: "06*",
+      value: "22 Towers",
     },
     {
       icon: <Building2 className="h-8 w-8" />,
-      label: "No. of Floors",
-      value: "G + 50*",
+      label: "Floor Height",
+      value: "G + 30",
     },
     {
       icon: <Home className="h-8 w-8" />,
-      label: "Unit Variants",
-      value: "4 BHK",
+      label: "Open Space",
+      value: "75%",
     },
   ];
 
   const highlights = [
-    "Gated Community Spread over 25 Acres part of 115 acres township",
-    "Low-Density High-Rise Development",
-    "Featuring an impressive 88% lush green area",
-    "Equipped with a Clubhouse with Modern Amenities",
-    "Each Tower consists of Ground + 50 Floors",
-    "Three-Side Open Apartments on Each Floor",
+    "Luxury high-rise living with smart layouts",
+    "Sprawling Acres of Lush Greenery with 75% open space",
+    "Modern Amenity & Recreational Spaces",
+    "Floral gardens with air-purifying Trees Species",
+    "Close to metro, colleges & hospitals",
+    "Quick access to NH-8 & Dwarka Expressway",
+    "Striking glass facade with skyline views",
+    "Natural light & ventilation in every apartment",
+    "Near schools, malls & workplaces",
+    "24×7 gated security",
+    "High-growth investment zone",
+    "Payment Plans: 30:40:30 & 25 X 4",
   ];
 
   return (
@@ -90,12 +96,15 @@ export const Overview = () => {
           </div>
         </div>
 
-        {/* RERA Information */}
-        <div className="mt-12 text-center">
-          <div className="inline-block bg-luxury-gold/10 px-6 py-3 rounded-full">
-            <span className="text-sm font-medium text-luxury-brown">
-              RERA ID: GGM/954/686/2025/57 | Status: Under Construction
-            </span>
+        {/* Project Description */}
+        <div className="mt-12 max-w-4xl mx-auto">
+          <div className="bg-white p-8 rounded-lg shadow-card">
+            <p className="text-foreground leading-relaxed mb-4">
+              M3M GIC at Sector 9, Manesar, Gurgaon offers a lifestyle where modern architecture blends seamlessly with lush green landscapes and premium amenities, setting a new benchmark for luxury living. Designed for those who seek comfort and sophistication, these residences reflect thoughtful planning in every detail.
+            </p>
+            <p className="text-foreground leading-relaxed">
+              GIC – Gurgaon International City is envisioned as a future-ready urban ecosystem where business, leisure, and sustainability come together. This integrated township redefines modern living, offering a balanced environment powered by innovation and surrounded by nature.
+            </p>
           </div>
         </div>
       </div>

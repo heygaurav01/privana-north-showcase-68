@@ -13,7 +13,7 @@ export const Hero = ({ onEnquireClick }: HeroProps) => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="DLF Privana North"
+          alt="M3M GIC Gurugram"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70" />
@@ -23,25 +23,25 @@ export const Hero = ({ onEnquireClick }: HeroProps) => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto space-y-6 animate-fade-up">
           <div className="inline-block px-6 py-2 bg-luxury-gold/20 backdrop-blur-sm border border-luxury-gold/30 rounded-full mb-4">
-            <span className="text-luxury-gold font-medium">Premium Living in Gurgaon</span>
+            <span className="text-luxury-gold font-medium">Luxury High-Rise Living</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-white leading-tight">
-            DLF Privana North
+            M3M GIC Gurugram
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 font-light">
-            4 BHK Apartments & Penthouses in Sector 77, Gurgaon
+            2, 3 & 4 BHK Luxury Apartments in Sector 9, Manesar
           </p>
           
           <div className="flex items-center justify-center space-x-2 text-luxury-gold">
             <MapPin className="h-5 w-5" />
-            <span className="text-lg">Sector 77, Gurgaon</span>
+            <span className="text-lg">Sector 9, Manesar, Gurugram</span>
           </div>
 
           <div className="pt-4">
             <div className="text-4xl md:text-5xl font-bold text-luxury-gold mb-6">
-              ₹8.50 Cr* Onwards
+              ₹2.15 Cr* Onwards
             </div>
           </div>
 

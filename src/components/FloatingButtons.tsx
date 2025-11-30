@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const FloatingButtons = () => {
   const phoneNumber = "+918200201202";
-  const whatsappMessage = "Hi, I'm interested in DLF Privana North. Please share more details.";
+  const whatsappMessage = "Hi, I'm interested in M3M GIC Gurugram. Please share more details.";
 
   return (
     <div className="fixed bottom-8 right-8 z-40 flex flex-col space-y-4">

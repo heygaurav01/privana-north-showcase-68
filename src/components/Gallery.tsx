@@ -13,7 +13,7 @@ export const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const images = [
-    { src: exteriorImage, alt: "DLF Privana North Exterior" },
+    { src: exteriorImage, alt: "M3M GIC Gurugram Exterior" },
     { src: entranceImage, alt: "Grand Entrance" },
     { src: clubhouseImage, alt: "Clubhouse View" },
     { src: towersImage, alt: "Tower View" },
@@ -32,7 +32,7 @@ export const Gallery = () => {
           </h2>
           <div className="w-24 h-1 bg-luxury-gold mx-auto mb-4" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Explore the stunning architecture and premium amenities that make DLF Privana North exceptional
+            Explore the stunning architecture and premium amenities that make M3M GIC Gurugram exceptional
           </p>
         </div>
 

@@ -4,44 +4,64 @@ import { Card } from "@/components/ui/card";
 export const Amenities = () => {
   const amenities = [
     {
-      icon: <Dumbbell className="h-8 w-8" />,
-      title: "Fitness Center",
-      description: "State-of-the-art gymnasium with modern equipment",
+      icon: <Waves className="h-8 w-8" />,
+      title: "Outdoor Pools Deck",
+      description: "Temperature-controlled swimming pools with deck area",
     },
     {
-      icon: <Waves className="h-8 w-8" />,
-      title: "Swimming Pool",
-      description: "Olympic-size swimming pool with poolside deck",
+      icon: <Dumbbell className="h-8 w-8" />,
+      title: "Fully Equipped Gym",
+      description: "State-of-the-art fitness center with modern equipment",
     },
     {
       icon: <Trees className="h-8 w-8" />,
-      title: "Landscaped Gardens",
-      description: "88% lush green area with walking trails",
-    },
-    {
-      icon: <Baby className="h-8 w-8" />,
-      title: "Children's Play Area",
-      description: "Safe and fun play zones for kids",
+      title: "Open-air Fitness Zone",
+      description: "Outdoor workout area surrounded by greenery",
     },
     {
       icon: <Users className="h-8 w-8" />,
-      title: "Clubhouse",
-      description: "Exclusive clubhouse with modern amenities",
+      title: "Squash Court",
+      description: "Professional sports courts for active lifestyle",
     },
     {
-      icon: <Shield className="h-8 w-8" />,
-      title: "24/7 Security",
-      description: "Advanced security systems and trained personnel",
+      icon: <Trees className="h-8 w-8" />,
+      title: "Miyawaki Forest Trail",
+      description: "Nature walking trails with air-purifying trees",
     },
     {
-      icon: <Car className="h-8 w-8" />,
-      title: "Parking",
-      description: "Ample covered parking space",
+      icon: <Users className="h-8 w-8" />,
+      title: "PlayStation Zone",
+      description: "Gaming area with latest consoles and entertainment",
     },
     {
       icon: <Heart className="h-8 w-8" />,
-      title: "Wellness Center",
-      description: "Spa and yoga facilities for holistic living",
+      title: "Salon & Lounge Area",
+      description: "Beauty salon and relaxation lounge",
+    },
+    {
+      icon: <Users className="h-8 w-8" />,
+      title: "Fine Dining Zone",
+      description: "Premium dining spaces for social gatherings",
+    },
+    {
+      icon: <Users className="h-8 w-8" />,
+      title: "Multi-purpose Hall",
+      description: "Versatile event space for celebrations",
+    },
+    {
+      icon: <Heart className="h-8 w-8" />,
+      title: "Wellness Retreat",
+      description: "Spa and meditation facilities",
+    },
+    {
+      icon: <Baby className="h-8 w-8" />,
+      title: "Indoor Kids' Play Zone",
+      description: "Safe and fun indoor play area for children",
+    },
+    {
+      icon: <Users className="h-8 w-8" />,
+      title: "Business Centre",
+      description: "Work-from-home spaces with modern facilities",
     },
   ];
 

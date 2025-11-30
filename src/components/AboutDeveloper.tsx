@@ -5,23 +5,23 @@ export const AboutDeveloper = () => {
   const achievements = [
     {
       icon: <Building className="h-8 w-8" />,
-      value: "70+ Years",
-      label: "Of Excellence",
+      value: "Premium",
+      label: "Quality Projects",
     },
     {
       icon: <TrendingUp className="h-8 w-8" />,
-      value: "284 msf",
-      label: "Planned Projects",
+      value: "Trusted",
+      label: "Developer Brand",
     },
     {
       icon: <Users className="h-8 w-8" />,
-      value: "15 States",
-      label: "Pan India Presence",
+      value: "Thousands",
+      label: "Happy Families",
     },
     {
       icon: <Award className="h-8 w-8" />,
-      value: "24 Cities",
-      label: "Across India",
+      value: "Award",
+      label: "Winning Projects",
     },
   ];
 
@@ -30,21 +30,22 @@ export const AboutDeveloper = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4">
-            About DLF Limited
+            About M3M Group
           </h2>
           <div className="w-24 h-1 bg-luxury-gold mx-auto mb-4" />
         </div>
 
         <div className="max-w-4xl mx-auto mb-12">
           <p className="text-lg text-white/90 leading-relaxed mb-6">
-            DLF has nearly 70 years of track record of sustained growth, customer satisfaction, and innovation. 
-            The company has 284 msf of planned projects with 41 msf of projects under construction. DLF's primary 
-            business is development of residential, commercial and retail properties.
+            M3M Group is a renowned real estate developer committed to delivering world-class residential and commercial 
+            properties. With a legacy of excellence and innovation, M3M has established itself as a trusted name in the 
+            Indian real estate sector, creating landmark projects that redefine luxury living.
           </p>
           <p className="text-lg text-white/90 leading-relaxed">
-            The company has a unique business model with earnings arising from development and rentals. Its exposure 
-            across businesses, segments and geographies, mitigates any down-cycles in the market. From developing 22 
-            major colonies in Delhi, DLF is now present across 15 states-24 cities in India.
+            The company's portfolio includes premium residential apartments, commercial spaces, and integrated townships 
+            that combine modern architecture with sustainable development. M3M's projects are characterized by their 
+            prime locations, exceptional design quality, and world-class amenities, making them preferred choices for 
+            discerning homebuyers and investors.
           </p>
         </div>
 

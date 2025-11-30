@@ -30,7 +30,7 @@ const ThankYou = () => {
 
         <div className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-card animate-fade-in">
           <p className="text-foreground leading-relaxed">
-            Thank you for your interest in <span className="font-semibold text-luxury-gold">DLF Privana North</span>. 
+            Thank you for your interest in <span className="font-semibold text-luxury-gold">M3M GIC Gurugram</span>. 
             Our team will contact you shortly to discuss your requirements and answer any questions you may have.
           </p>
         </div>
