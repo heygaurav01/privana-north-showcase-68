@@ -9,6 +9,14 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   plugins: [react()].filter(Boolean),
+  build: {
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "index.html"),
+        thankYou: path.resolve(__dirname, "thank-you.html"),
+      },
+    },
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

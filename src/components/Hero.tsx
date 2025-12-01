@@ -52,7 +52,7 @@ export const Hero = ({ onEnquireClick }: HeroProps) => {
               <Button
                 onClick={onEnquireClick}
                 size="lg"
-                className="bg-luxury-dark hover:bg-luxury-dark/90 text-white px-8 py-6 text-lg"
+                className="bg-luxury-gold hover:bg-luxury-gold/90 text-white px-8 py-6 text-lg"
               >
                 Download Brochure
               </Button>

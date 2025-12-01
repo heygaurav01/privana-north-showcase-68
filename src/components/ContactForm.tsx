@@ -2,9 +2,10 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, Phone, User, MessageSquare } from "lucide-react";
+import { Mail, Phone, User } from "lucide-react";
+import { submitFormData } from "@/lib/api";
+import { trackContactForm } from "@/lib/analytics";
 
 interface ContactFormProps {
   onClose?: () => void;
@@ -15,7 +16,6 @@ export const ContactForm = ({ onClose }: ContactFormProps) => {
     name: "",
     phone: "",
     email: "",
-    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
@@ -26,28 +26,28 @@ export const ContactForm = ({ onClose }: ContactFormProps) => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch("https://api.elaris.ltd/api.request", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
+      const result = await submitFormData({
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        countryCode: "", // Assuming country code is handled or empty for now
       });
 
-      if (response.ok) {
+      if (result.success) {
+        trackContactForm("contact");
         toast({
           title: "Thank you for your interest!",
-          description: "Our team will contact you shortly.",
+          description: result.message,
         });
         if (onClose) onClose();
-        navigate("/Thank-you.html");
+        navigate("/thank-you.html");
       } else {
-        throw new Error("Submission failed");
+        throw new Error(result.message);
       }
     } catch (error) {
       toast({
         title: "Error",
-        description: "Something went wrong. Please try again.",
+        description: error instanceof Error ? error.message : "Something went wrong. Please try again.",
         variant: "destructive",
       });
     } finally {
@@ -56,12 +56,23 @@ export const ContactForm = ({ onClose }: ContactFormProps) => {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement>
   ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+    const { name, value } = e.target;
+
+    if (name === "phone") {
+      // Only allow numbers
+      const numericValue = value.replace(/[^0-9]/g, "");
+      setFormData({
+        ...formData,
+        [name]: numericValue,
+      });
+    } else {
+      setFormData({
+        ...formData,
+        [name]: value,
+      });
+    }
   };
 
   return (
@@ -109,21 +120,6 @@ export const ContactForm = ({ onClose }: ContactFormProps) => {
           onChange={handleChange}
           placeholder="your.email@example.com"
           className="border-luxury-brown/20 focus:border-luxury-gold"
-        />
-      </div>
-
-      <div className="space-y-2">
-        <label className="text-sm font-medium text-foreground flex items-center space-x-2">
-          <MessageSquare className="h-4 w-4" />
-          <span>Message</span>
-        </label>
-        <Textarea
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          placeholder="Tell us about your requirements..."
-          rows={4}
-          className="border-luxury-brown/20 focus:border-luxury-gold resize-none"
         />
       </div>
 
