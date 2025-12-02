@@ -44,7 +44,7 @@ export const Hero = ({ onEnquireClick }: HeroProps) => {
 
             <div className="pt-4">
               <div className="text-4xl md:text-5xl font-bold text-luxury-gold mb-6">
-                ₹2.15 Cr* Onwards
+                ₹1.15 Cr* Onwards
               </div>
             </div>
 

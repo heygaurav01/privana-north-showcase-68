@@ -98,9 +98,27 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold text-lg mb-4">Legal</h4>
             <ul className="space-y-2 text-sm text-white/70">
-              <li>Privacy Policy</li>
-              <li>Terms & Conditions</li>
-              <li>Disclaimer</li>
+              <li>
+                <a href="/Disclaimer.html" className="hover:text-luxury-gold transition-colors">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                PROJECT RERA NO. - HARERA/GGM/991/723/2025/94{" "}
+                <a
+                  href="https://haryanarera.gov.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-luxury-gold transition-colors"
+                >
+                  https://haryanarera.gov.in/
+                </a>
+              </li>
+              <li>
+                <a href="/Disclaimer.html" className="hover:text-luxury-gold transition-colors">
+                  Disclaimer
+                </a>
+              </li>
             </ul>
           </div>
         </div>
