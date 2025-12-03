@@ -100,7 +100,12 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm text-white/70">
               <li>
                 <a href="/Disclaimer.html" className="hover:text-luxury-gold transition-colors">
-                  Privacy Policy
+                  Disclaimer
+                </a>
+              </li>
+              <li>
+                <a href="/Disclaimer.html" className="hover:text-luxury-gold transition-colors">
+                  Disclaimer
                 </a>
               </li>
               <li>
@@ -112,11 +117,6 @@ export const Footer = () => {
                   className="hover:text-luxury-gold transition-colors"
                 >
                   https://haryanarera.gov.in/
-                </a>
-              </li>
-              <li>
-                <a href="/Disclaimer.html" className="hover:text-luxury-gold transition-colors">
-                  Disclaimer
                 </a>
               </li>
             </ul>
