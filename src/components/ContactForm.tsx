@@ -23,6 +23,16 @@ export const ContactForm = ({ onClose }: ContactFormProps) => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (formData.phone.length !== 10) {
+      toast({
+        title: "Invalid Phone Number",
+        description: "Please enter a valid 10-digit phone number.",
+        variant: "destructive",
+      });
+      return;
+    }
+
     setIsSubmitting(true);
 
     try {
@@ -61,8 +71,8 @@ export const ContactForm = ({ onClose }: ContactFormProps) => {
     const { name, value } = e.target;
 
     if (name === "phone") {
-      // Only allow numbers
-      const numericValue = value.replace(/[^0-9]/g, "");
+      // Only allow numbers and max 10 digits
+      const numericValue = value.replace(/[^0-9]/g, "").slice(0, 10);
       setFormData({
         ...formData,
         [name]: numericValue,
